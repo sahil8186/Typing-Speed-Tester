@@ -29,7 +29,7 @@ window.addEventListener('DOMContentLoaded', () => {
  //FOR MOBILEEEE SCREEENS
   const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
   if (isMobile) {
-    alert("This Web is not Made for Mobiles");
+    alert("The Web is under Maintainance for Mobile Phones !! until then, See you on the Desktop !!!");
   }
 
 
@@ -164,5 +164,6 @@ function start() {
         document.removeEventListener("keydown", keylistener);
     }, timer);
 }
+
 
 
