@@ -26,6 +26,13 @@ window.addEventListener('DOMContentLoaded', () => {
   }
 });
 
+ //FOR MOBILEEEE SCREEENS
+  const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+  if (isMobile) {
+    alert("Heads up: you're on mobile.");
+  }
+
+
 let timer = 30000;  //default 30 sec
 const buttons = document.querySelectorAll(".timers");
     
@@ -157,3 +164,4 @@ function start() {
         document.removeEventListener("keydown", keylistener);
     }, timer);
 }
+
