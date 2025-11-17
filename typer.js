@@ -29,7 +29,7 @@ window.addEventListener('DOMContentLoaded', () => {
  //FOR MOBILEEEE SCREEENS
   const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
   if (isMobile) {
-    alert("Heads up: you're on mobile.");
+    alert("This Web is not Made for Mobiles");
   }
 
 
@@ -164,4 +164,5 @@ function start() {
         document.removeEventListener("keydown", keylistener);
     }, timer);
 }
+
 
